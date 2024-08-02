@@ -1,8 +1,38 @@
-id: example
-name: Example Dojo
-type: example
-award:
-  emoji: 😀
+id: cse5453-2024-fall
+name: CSE 5453 - Fall 2024
+description: |
+  Arizona State University - CSE 543 - Fall 2024
+
+type: course
+
+visibility:
+  start: "2024-08-01T00:00:00-07:00"
+
 modules:
-  - id: hello
-  - id: world
+
+- import:
+    dojo: intro-to-cybersecurity
+    module: talking-web
+  visibility:
+    start: "2024-08-01T00:00:00-07:00"
+
+
+- id: reverse-engineering
+  name: Reverse Engineering
+  description: |
+    Now that you've developed expertise in reading and writing assembly code, we'll put that knowledge to the test in reverse engineering binaries!
+
+    First you'll learn the magic of gdb, then reverse engineer binaries.
+
+    For the `Debugging Refresher` levels, the challenge is in `/challenge`, but named differently for each level. Make sure you read the output, it will drop you into gdb. From there there run `run` to get started. Follow the output to keep going
+
+    For the `Reverse Engineering` levels, the challenge is in `/challenge`, but named differently for each level. The levelX.0 are "teaching" challenges that have output that shows what the challenge is doing. The levelX.1 challenges are similar (but not the same) but have no output: you'll need to reverse engineer the binary.
+
+  visibility:
+    start: "2024-08-01T00:00:00-07:00"
+  challenges:
+  - name: "Debugging Refresher: level1"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-1
