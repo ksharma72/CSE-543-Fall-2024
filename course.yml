@@ -1,0 +1,64 @@
+letter_grades:
+  "A+": 1.00
+  "A": 0.90
+  "A-": 0.85
+  "B+": 0.80
+  "B": 0.75
+  "B-": 0.70
+  "C+": 0.65
+  "C": 0.60
+  "D": 0.50
+  "E": 0.00
+
+student_id: "ASU Student ID (10-digit number)"
+discord_role: "ASU CSE543 - F2024"
+
+assessments:
+
+- type: due
+  id: assembly-crash-course
+  date: "2024-10-16T23:59:59-07:00"
+  weight: 1
+  late_penalty: 0.5
+  extensions:
+
+- type: due
+  id: reverse-engineering
+  date: "2024-10-16T23:59:59-07:00"
+  weight: 1
+  late_penalty: 0.5
+  extensions:
+  
+- type: due
+  id: intercepting-communication
+  date: "2024-10-16T23:59:59-07:00"
+  weight: 1
+  late_penalty: 0.5
+  extensions:
+
+- type: due
+  id: access-control
+  date: "2024-09-25T23:59:59-07:00"
+  weight: 1
+  late_penalty: 0.5
+  extensions:
+
+- type: due
+  id: web-security
+  date: "2024-10-16T23:59:59-07:00"
+  weight: 1
+  late_penalty: 0.5
+  extensions:
+
+
+- type: extra
+  name: "Extra Credit"
+  credit:
+
+
+syllabus: |
+  # Zoom Suppor Session
+  # F 10:00-11:00 AM
+  [Zoom support session](https://asu.zoom.us/j/86754876836?pwd=aW5FVnlIRzJCTTZvT2J4ZjZndkJtZz09)
+  <br>
+
