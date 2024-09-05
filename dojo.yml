@@ -6,17 +6,174 @@ description: |
 type: course
 
 visibility:
-  start: "2024-08-01T00:00:00-07:00"
+  start: "2024-09-01T00:00:00-07:00"
 
 modules:
 
 - import:
     dojo: intro-to-cybersecurity
-    module: talking-web
+    module: web-security
   visibility:
-    start: "2024-08-01T00:00:00-07:00"
+    start: "2024-09-01T00:00:00-07:00"
+  challenges:
+    - import:
+        challenge: level-1
+    - import:
+        challenge: level-2
+    - import:
+        challenge: level-3
+    - import:
+        challenge: level-4
+    - import:
+        challenge: level-5
+    - import:
+        challenge: level-6
+    - import:
+        challenge: level-7
+    - import:
+        challenge: level-8
+    - import:
+        challenge: level-9
+    - import:
+        challenge: level-10
+    - import:
+        challenge: level-11
+    - import:
+        challenge: level-12
+    - import:
+        challenge: level-13
+    - import:
+        challenge: level-14
+  resources:
+  - name: "Web Security: Introduction"
+    type: lecture
+    video: AKTYVWCi6ss
+    playlist: PL-ymxv0nOtqrvXLSALV5SQ5v3oyKY4DWg
+    slides: 1ATO_U0aUlk2LRhlnIwdqTkDfu-lWRb5xoLDv0NQLPs8
+  - name: "Web Security: Structured Query Language"
+    type: lecture
+    video: 433mRGcpHeA
+    playlist: PL-ymxv0nOtqrvXLSALV5SQ5v3oyKY4DWg
+    slides: 1KpvjoFnlC9HcUJbkg-_VASf2JETMwEZjpzO0uGSoCo4
+  - name: "Web Security: Injection"
+    type: lecture
+    video: sdStLx3_Q0M
+    playlist: PL-ymxv0nOtqrvXLSALV5SQ5v3oyKY4DWg
+    slides: 1rP8IIc_6B8Z7KpqBGxkneIzAjURRQ-YlkJV-_4dF-SM
+  - name: "Web Security: Same-Origin Policy"
+    type: lecture
+    video: b1NOCHm4t_s
+    playlist: PL-ymxv0nOtqrvXLSALV5SQ5v3oyKY4DWg
+    slides: 1KkiR8B_9xQilW_yq6W9FZ6xBN78V0S1aH1XvQfufYIk
+  - name: "Tooling Documentation"
+    type: markdown
+    content: |
+      - [python -m http.server](https://docs.python.org/library/http.server.html)
+      - [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+      
+
+- import:
+    dojo: intro-to-cybersecurity
+    module: intercepting-communication
+  visibility:
+    start: "2024-09-01T00:00:00-07:00"
+  resources:
+    - name: "Class Material: Intercepting Communication"
+      type: markdown
+      content: |
+        [Copy of the slides](https://www.dropbox.com/scl/fi/3hr371v4atb13paw3jlsr/Intercepting-Communication-1.pdf?rlkey=3dhysi40j8jh88osftia1a72w&dl=0)
+
+        Recorded Lectures:
+          <br>
+          <p>10/11/23 Intercepting Communication Pt. 1":</p>
+        <br>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/3lWp9wHTftA?rel=0" title="YouTube video player" allowfullscreen></iframe>
+          </div>
+        <br/>
+          <p>10/16/23 Intercepting Communication Pt. 2":</p>
+        <br>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/_VfeIfeyOvY?rel=0" title="YouTube video player" allowfullscreen></iframe>
+          </div>
+        <br/>
+          <p>10/18/23 Intercepting Communication Pt. 3":</p>
+        <br>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/mK1tpx1ANTg?rel=0" title="YouTube video player" allowfullscreen></iframe>
+          </div>
+        <br/>
+        <br/>
+          <p>10/18/23 Intercepting Communication Pt. 4":</p>
+        <br>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/xeKvx5qsDCY?rel=0" title="YouTube video player" allowfullscreen></iframe>
+          </div>
+        <br/>
+
+    - name: Prior Course Material
+      type: markdown
+      content: |
+        The excellent [kanak](https://github.com/ConnorNelson) (creator of pwn.college) has recorded lectures and slides from prior CSE 365 that might be useful:
+
+        # Intercepting Communication: Introduction
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/TLJHimgblCM?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1fj5anIxRY3haHl81dFWwwCMQhJCUEY-NrTClwYH9_iE/embed"></iframe>
+        </div>
+        <br>
+
+        # Intercepting Communication: Ethernet
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/TaPsmkBNJ64?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1OFdRsadX7HaLVtrVC5rV8837W8FY83Qzca5OIhhade0/embed"></iframe>
+        </div>
+        <br>
+
+        # Intercepting Communication: Internet Protocol
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/3F7lRUoIXM?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1fiTAFWX-ASikEFD1QRmgangaUzLvE2Ym7UlSjVnx4Oc/embed"></iframe>
+        </div>
+        <br>
+
+        # Intercepting Communication: Transmission Control Protocol
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/v3m9F9nEpCA?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1ALXCLKkbGgzOJ0qrCGD-UekGOGjzH74tLAaZLw4CvWc/embed"></iframe>
+        </div>
+        <br>
+
+        # Intercepting Communication: Address Resolution Protocol
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/9p2OU4r4aGs?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1VoEUlgjCNZuNIdh8KSxF6bTXPr1ylaeokwFDOLk7F94/embed"></iframe>
+        </div>
+        <br>
 
 
+- import:
+    dojo: fundamentals
+    module: assembly-crash-course
+  visibility:
+    start: "2024-09-01T00:00:00-07:00"
+    
 - id: reverse-engineering
   name: Reverse Engineering
   description: |
@@ -29,10 +186,250 @@ modules:
     For the `Reverse Engineering` levels, the challenge is in `/challenge`, but named differently for each level. The levelX.0 are "teaching" challenges that have output that shows what the challenge is doing. The levelX.1 challenges are similar (but not the same) but have no output: you'll need to reverse engineer the binary.
 
   visibility:
-    start: "2024-08-01T00:00:00-07:00"
+    start: "2024-09-01T00:00:00-07:00"
   challenges:
   - name: "Debugging Refresher: level1"
     import:
       dojo: fundamentals
       module: debugging-refresher
       challenge: level-1
+  - name: "Debugging Refresher: level2"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-2
+  - name: "Debugging Refresher: level3"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-3
+  - name: "Debugging Refresher: level4"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-4
+  - name: "Debugging Refresher: level5"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-5
+  - name: "Debugging Refresher: level6"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-6
+  - name: "Debugging Refresher: level7"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-7
+  - name: "Debugging Refresher: level8"
+    import:
+      dojo: fundamentals
+      module: debugging-refresher
+      challenge: level-8
+  - name: "Reverse Engineering: level1.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-1-0
+  - name: "Reverse Engineering: level1.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-1-1
+  - name: "Reverse Engineering: level2.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-2-0
+  - name: "Reverse Engineering: level2.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-2-1
+  - name: "Reverse Engineering: level3.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-3-0
+  - name: "Reverse Engineering: level3.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-3-1
+  - name: "Reverse Engineering: level4.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-4-0
+  - name: "Reverse Engineering: level4.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-4-1
+  - name: "Reverse Engineering: level5.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-5-0
+  - name: "Reverse Engineering: level5.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-5-1
+  - name: "Reverse Engineering: level6.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-6-0
+  - name: "Reverse Engineering: level6.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-6-1
+  - name: "Reverse Engineering: level7.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-7-0
+  - name: "Reverse Engineering: level7.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-7-1
+  - name: "Reverse Engineering: level8.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-8-0
+  - name: "Reverse Engineering: level8.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-8-1
+  - name: "Reverse Engineering: level9.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-9-0
+  - name: "Reverse Engineering: level9.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-9-1
+  - name: "Reverse Engineering: level10.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-10-0
+  - name: "Reverse Engineering: level10.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-10-1
+  - name: "Reverse Engineering: level11.0"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-11-0
+  - name: "Reverse Engineering: level11.1"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-11-1
+  resources:
+    - name: "Reverse Engineering: Introduction"
+      type: lecture
+      video: ClVocVk1c5g
+      playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+      slides: 1hw_STBTJh4xqMv4TZAPRqt2rYIEAXXaCQlaBetxUufU
+    - name: "Reverse Engineering: Functions and Frames"
+      type: lecture
+      video: 3IdeyjrMBA4
+      playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+      slides: 125gIw6rNKvwa-1DO6j3HTWbWtr2q3xD2coTCb0CgmAw
+    - name: "Reverse Engineering: Data Access"
+      type: lecture
+      video: AtVprTb5xBs
+      playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+      slides: 154CQfQtpleaAQv9xNI1FVosbXc_18VZvXVpcs9Ljzzo
+    - name: "Reverse Engineering: Static Tools"
+      type: lecture
+      video: ls4Eoew6aSY
+      playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+      slides: 1GcRLX3-cD9eLweEixmBPfawY7viOQWApG7E_HFfqHQQ
+    - name: "Reverse Engineering: Dynamic Tools"
+      type: lecture
+      video: HcBordv7aWU
+      playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+      slides: 13yzjaRTIlloV8Lg5fcQN2ZYXooVqizLgHVby1ltYeWY
+    - name: "Reverse Engineering: Real-world Applications"
+      type: lecture
+      video: 2pqvHSy11JE
+      playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+      slides: 1HWiy6OzvPO8YhgTPOsALobh9LagZsJ3Jsx7DJFLAKn4
+    - name: GDB Help
+      type: markdown
+      content: |
+        There are a number of good gdb crash courses / reference manuals:
+
+        - [GDB's documentation](https://sourceware.org/gdb/onlinedocs/gdb/index.html)
+        - [Tudor's gdb crash course](https://users.umiacs.umd.edu/~tdumitra/courses/ENEE757/Fall15/misc/gdb_tutorial.html)
+        - [gdb debugging full example](https://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html)
+        - [pwndbg: a gdb extension (feature list)](https://github.com/pwndbg/pwndbg/blob/dev/FEATURES.md)
+        - [gef: another gdb extension (feature list)](https://hugsy.github.io/gef/commands/aliases/)
+        - The course [Debuggers 1012: Introductory GDB](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Dbg1012_GDB_1+2021_v1/course/) from OpenSecurityTraining2.
+    - name: "Robert's GDB Walkthrough"
+      type: lecture
+      video: r185fCzdw8Y
+      playlist: PL-ymxv0nOtqqQzEncNuE6jetlJAiBUda-
+    - name: Other Resources
+      type: markdown
+      content: |
+        There are many resources related to reverse engineering around the internet.
+
+        - A good place to start is a series of walkthroughs of several hacking challenges by ASU's own Adam Doupe on his [YouTube channel](https://www.youtube.com/watch?v=qGt-0OOAFcM&list=PLK06XT3hFPziMAZj8QuoqC8iVaEbrlZWh).
+        - A comprehensive revese engineering [tutorial series](https://github.com/mytechnotalent/Reverse-Engineering).
+
+    - name: Useful Tools
+      type: markdown
+      content: |
+        As mentioned in the slides, there are a number of useful tools for this assignment!
+        Here is a (non-exhaustive) list:
+
+        * `gdb` will let you run and inspect the state of these programs.
+          Please check out the Debugging Refresher module.
+          We have also provided a quick briefer here.
+          Some useful gdb concepts:
+            * Know the difference between `step instruction` (`si`) and `next instruction` (`ni`).
+              It boils down to the fact that `si` will follow jumps, and `ni` will step over jumps.
+              This means that if you use `si`, you will quickly find yourself crawling through libc code, which is insane and unnecessary.
+            * You can use `x/i $rip` to disassemble the next instruction that will be executed.
+              You can call `display/i $rip` to make the next instruction display every time gdb prompts you for input.
+              You can also do `x/2i` and `display/2i` to print two (or other quantities of) instructions.
+            * The `disas` command will disassemble the current function that you are looking at.
+            * gdb can be scripted!
+              Look up conditional breakpoints and scriptable breakpoints in the gdb manual.
+            * Modern binaries are _position independent_, meaning that they can be loaded anywhere in memory when they run.
+              GDB will load them at the offset `0x555555554000`.
+              This means that if objdump is telling you that main starts at some address like, `0x100`, the address when debugging with GDB will be `0x555555554100`
+        * `strings` will list printable strings in the file.
+          This is useful for looking for constant strings that the program checks for (such as file names and so on) in the course of getting input.
+          Keep in mind that the options for string include a minimum size that it will print.
+        * Don't forget about pwntools! You will need to interact heavily with these programs. Do it right (with pwntools).
+        * `rappel` is a nice tool to help you figure out what certain instructions do.
+        * Tools for reverse engineering actual binaries:
+            * IDA, accessible via the Desktop in the dojo, is the industry standard of reverse-engineering tools.
+            * Ghidra, also accessible via the Desktop in the dojo, is an open source direct competitor to IDA that is used and loved by many.
+            * angr-management, also accessible via the Desktop in the dojo, is an open source up-and-coming reversing tool with some advanced functionality.
+            * [Binary Ninja Cloud](https://cloud.binary.ninja), accessible separately through your web browser, is a free binary reverse engineering tool.
+            * In a pinch, `objdump -d -M intel the_binary` will disassemble the binary you want to look at.
+              `-M intel`, in that command, makes objdump give you nice and readable Intel assembly syntax.
+
+
+- import:
+    dojo: cse365-f2023
+    module: access-control
+  visibility:
+    start: "2024-09-16T00:00:00-07:00"
