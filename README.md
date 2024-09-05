@@ -1,4 +1,4 @@
-# Example Dojo
+# CSE 543 Dojo
 
 This repositories features an example dojo.
 
