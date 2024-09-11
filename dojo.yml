@@ -278,86 +278,29 @@ modules:
     - name: "Class Material: Intercepting Communication"
       type: markdown
       content: |
-        [Copy of the slides](https://www.dropbox.com/scl/fi/3hr371v4atb13paw3jlsr/Intercepting-Communication-1.pdf?rlkey=3dhysi40j8jh88osftia1a72w&dl=0)
+        [Copy of the slides](https://www.dropbox.com/scl/fi/ws0x27orf71mgmq1upuas/Topic5_Intercepting-Communication.pdf?rlkey=8v6lyre6pif4dge1h249w9lae&st=7ef0nmnp&dl=0)
 
         Recorded Lectures:
-        - [Intercepting Communication Pt. 1] (https://www.youtube.com/embed/3lWp9wHTftA?rel=0)
-        <br/>
-          <p>10/16/23 Intercepting Communication Pt. 2":</p>
-        <br>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/_VfeIfeyOvY?rel=0" title="YouTube video player" allowfullscreen></iframe>
-          </div>
-        <br/>
-          <p>10/18/23 Intercepting Communication Pt. 3":</p>
-        <br>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/mK1tpx1ANTg?rel=0" title="YouTube video player" allowfullscreen></iframe>
-          </div>
-        <br/>
-        <br/>
-          <p>10/18/23 Intercepting Communication Pt. 4":</p>
-        <br>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/xeKvx5qsDCY?rel=0" title="YouTube video player" allowfullscreen></iframe>
-          </div>
-        <br/>
+        - [Intercepting Communication Pt. 1](https://www.youtube.com/embed/3lWp9wHTftA?rel=0)
+        - [Intercepting Communication Pt. 2](https://www.youtube.com/embed/_VfeIfeyOvY?rel=0)
+        - [Intercepting Communication Pt. 3](https://www.youtube.com/embed/mK1tpx1ANTg?rel=0)
+        - [Intercepting Communication Pt. 4](https://www.youtube.com/embed/xeKvx5qsDCY?rel=0)
 
     - name: Prior Course Material
       type: markdown
       content: |
         The excellent [kanak](https://github.com/ConnorNelson) (creator of pwn.college) has recorded lectures and slides from prior CSE 365 that might be useful:
 
-        # Intercepting Communication: Introduction
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/TLJHimgblCM?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1fj5anIxRY3haHl81dFWwwCMQhJCUEY-NrTClwYH9_iE/embed"></iframe>
-        </div>
-        <br>
-
-        # Intercepting Communication: Ethernet
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/TaPsmkBNJ64?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1OFdRsadX7HaLVtrVC5rV8837W8FY83Qzca5OIhhade0/embed"></iframe>
-        </div>
-        <br>
-
-        # Intercepting Communication: Internet Protocol
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/3F7lRUoIXM?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1fiTAFWX-ASikEFD1QRmgangaUzLvE2Ym7UlSjVnx4Oc/embed"></iframe>
-        </div>
-        <br>
-
-        # Intercepting Communication: Transmission Control Protocol
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/v3m9F9nEpCA?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1ALXCLKkbGgzOJ0qrCGD-UekGOGjzH74tLAaZLw4CvWc/embed"></iframe>
-        </div>
-        <br>
-
-        # Intercepting Communication: Address Resolution Protocol
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/9p2OU4r4aGs?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0" title="YouTube video player" allowfullscreen></iframe>
-        </div>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" data-src="https://docs.google.com/presentation/d/1VoEUlgjCNZuNIdh8KSxF6bTXPr1ylaeokwFDOLk7F94/embed"></iframe>
-        </div>
-        <br>
-
+        - [Intercepting Communication: Introduction](https://www.youtube.com/embed/TLJHimgblCM?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0)
+        - [Lecture Notes](https://docs.google.com/presentation/d/1fj5anIxRY3haHl81dFWwwCMQhJCUEY-NrTClwYH9_iE/embed)
+        - [Intercepting Communication: Ethernet](https://www.youtube.com/embed/TaPsmkBNJ64?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0)
+        - [Lecture NOtes](https://docs.google.com/presentation/d/1OFdRsadX7HaLVtrVC5rV8837W8FY83Qzca5OIhhade0/embed)
+        - [Intercepting Communication: Internet Protocol](https://www.youtube.com/embed/3F7lRUoIXM?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0)
+        - [Lecture Notes](https://docs.google.com/presentation/d/1fiTAFWX-ASikEFD1QRmgangaUzLvE2Ym7UlSjVnx4Oc/embed")
+        - [Intercepting Communication: Transmission Control Protocol](https://www.youtube.com/embed/v3m9F9nEpCA?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0)
+        - [Lecture Notes](https://docs.google.com/presentation/d/1ALXCLKkbGgzOJ0qrCGD-UekGOGjzH74tLAaZLw4CvWc/embed)
+        - [Intercepting Communication: Address Resolution Protocol](https://www.youtube.com/embed/9p2OU4r4aGs?list=PL-ymxv0nOtqrrjUFj5DL7jby9xA4sPFq-&rel=0)
+        - [Lecture Notes](https://docs.google.com/presentation/d/1VoEUlgjCNZuNIdh8KSxF6bTXPr1ylaeokwFDOLk7F94/embed)
 
 - import:
     dojo: cse365-f2023
