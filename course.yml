@@ -16,43 +16,39 @@ assessments:
 
 - type: due
   id: assembly-crash-course
-  date: "2024-10-16T23:59:59-07:00"
+  date: "2024-10-30T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
 - type: due
   id: reverse-engineering
-  date: "2024-10-16T23:59:59-07:00"
+  date: "2024-10-30T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
   
 - type: due
   id: intercepting-communication
-  date: "2024-10-16T23:59:59-07:00"
+  date: "2024-10-30T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
 - type: due
   id: access-control
-  date: "2024-10-16T23:59:59-07:00"
+  date: "2024-10-30T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
 - type: due
   id: web-security
-  date: "2024-10-16T23:59:59-07:00"
+  date: "2024-10-30T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
-
-- type: extra
-  name: "Extra Credit"
-  credit:
 
 
 syllabus: |
