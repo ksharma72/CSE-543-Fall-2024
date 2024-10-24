@@ -10,7 +10,7 @@ visibility:
 
 modules:
 - import:
-    dojo: fundamentals
+    dojo: computing-101
     module: assembly-crash-course
   visibility:
     start: "2024-09-01T00:00:00-07:00"
@@ -31,42 +31,42 @@ modules:
   challenges:
   - name: "Debugging Refresher: level1"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-1
   - name: "Debugging Refresher: level2"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-2
   - name: "Debugging Refresher: level3"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-3
   - name: "Debugging Refresher: level4"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-4
   - name: "Debugging Refresher: level5"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-5
   - name: "Debugging Refresher: level6"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-6
   - name: "Debugging Refresher: level7"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-7
   - name: "Debugging Refresher: level8"
     import:
-      dojo: fundamentals
+      dojo: computing-101
       module: debugging-refresher
       challenge: level-8
   - name: "Reverse Engineering: level1.0"
